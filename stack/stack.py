@@ -33,6 +33,7 @@ from singly_linked_list import LinkedList
 class Stack:
     def __init__(self):
         self.size = 0
+        # linked list implementation
         self.storage = LinkedList()
 
     def __len__(self):
